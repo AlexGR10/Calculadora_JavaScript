@@ -1,0 +1,32 @@
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabla{
+    margin-top: 200px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(100,100,112) ; 
+    border: 3px solid hsl(0, 0%, 0%); 
+    text-align:center; 
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.tabla tr{
+    background-color: rgb(107, 113, 125);
+    text-align:center;
+}
+
+.borrar input{
+    background-color: rgb(152,34,66);
+    color: rgb(232,239,231);
+}
+
+.resultado{
+    font-family: 'Gemunu Libre', sans-serif; 
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px; 
+    background-color: rgb(189, 190, 174);
+}
